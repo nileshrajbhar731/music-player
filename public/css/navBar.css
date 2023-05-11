@@ -1,0 +1,138 @@
+/*  */
+.logo_container{
+    border-top: solid;
+    border-bottom: solid;
+    border-left: none;
+    border-right:solid ;
+    background-color: gray;
+}
+
+.logo_row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 5%;
+    border-top: none;
+    border-bottom: none;
+    border-left: solid;
+    border-right:solid ;
+    background-color: white;
+}
+.logo_img img{
+    width: 100%;
+}
+
+.website_url{
+    display: flex;
+}
+.website_url li{
+    list-style: none;
+}
+.website_url li a{
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+}
+.website_url li a:hover{
+    background-color: white;
+    color: black;
+}
+/*  */
+.navbar_container{
+    border-top: none;
+    border-bottom: solid;
+    border-left: none;
+    border-right:solid ;
+    background-color: gray;
+    width: 20%;
+    height: 581px;
+}
+.navbar_button li{
+list-style: none;
+text-align: center;
+}
+
+.navbar_button a button{
+    padding: 10px 50px 10px 50px;
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+    margin-top: calc(100px / 4);
+}
+.navbar_button a button:hover{
+   background-color: white;
+}
+
+
+.navbar_button a button i{
+    padding: calc(25px / 3);
+ font-size: calc(80px / 3);
+ display: inline-block;
+ justify-content: space-between;
+ align-items: center;
+
+    
+}
+
+/* .profile_img img{
+    width: 10%;
+    border-radius: 50px;
+}
+
+.profile_row{
+    display: flex;
+} */
+
+/* font color */
+
+.red{
+    color: #E70000;
+}
+
+.link{
+    color: #1E58A4;
+}
+
+.audio{
+    color: #6100FF;
+    /* font-size: 32px !important; */
+}
+
+.music{
+    color: #9E28FF;
+    /* font-size: 32px !important; */
+}
+
+.upload{
+    color: #4C1682;
+}
+.fa-database{
+    margin: 0px 1px 0px 10px;
+}
+.fa-compact-disc{
+    margin: 0px 1px 0px 1px;
+}
+.fa-cloud-arrow-up{
+    margin: 0px 1px 0px 5px;
+}
+.fa-link{
+    margin: 0px 1px 0px -5px;
+}
+
+
+
+footer{
+
+    position: absolute;
+    top: 80%;
+
+
+}
+
+/* media query */

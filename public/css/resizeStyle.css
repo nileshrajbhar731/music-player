@@ -1,0 +1,35 @@
+.resize_contaiiner{
+background-color: brown;
+}
+.resize_row{
+display: flex;
+justify-content: flex-end;
+column-gap: 15px;
+padding: 5px;
+align-items: center;
+}
+
+.resize_row i {
+    font-size: xx-large;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.resize_row i:nth-child(even){
+    color: white;
+}
+.resize_row i:nth-child(even):hover{
+    color: white;
+    cursor: pointer;
+    background-color: black;
+    
+}
+
+.resize_row i:nth-child(odd){
+    color: white;
+}
+.resize_row i:nth-child(odd):hover{
+    color: white;
+    cursor: pointer;
+    background-color: black;
+}
